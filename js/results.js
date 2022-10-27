@@ -5,7 +5,7 @@ function Destination(
   density,
   code,
   fileextension = 'jpg',
-  src
+  src,
   expedia
 ) {
   this.name = name;
@@ -25,7 +25,9 @@ let niagarafalls = new Destination(
   'cold',
   'lowdensity',
   'aab',
-  'jpg'
+  'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let yellowstone = new Destination(
   'Yellowstone National Park',
@@ -33,7 +35,9 @@ let yellowstone = new Destination(
   'cold',
   'lowdensity',
   'aab',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let niagara = new Destination(
   'Niagara Falls',
@@ -41,7 +45,9 @@ let niagara = new Destination(
   'cold',
   'highdensity',
   'abb',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let rockefeller = new Destination(
   'Rockefeller',
@@ -49,7 +55,9 @@ let rockefeller = new Destination(
   'cold',
   'highdensity',
   'abb',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let aspen = new Destination('Aspen', 'highprice', 'cold', 'highdensity','bbb' ,'jpg');
 let stmortiz = new Destination(
@@ -58,7 +66,9 @@ let stmortiz = new Destination(
   'cold',
   'highdensity',
   'bbb',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let kirkenes = new Destination(
   'Kirkenes',
@@ -66,7 +76,9 @@ let kirkenes = new Destination(
   'cold',
   'lowdensity',
   'bab',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let solitudemountain = new Destination(
   'Solitude Mountain',
@@ -74,7 +86,9 @@ let solitudemountain = new Destination(
   'cold',
   'lowdensity',
   'bab',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 
 let grandcanyon = new Destination(
@@ -83,7 +97,9 @@ let grandcanyon = new Destination(
   'warm',
   'lowdensity',
   'aaa',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let deathvalley = new Destination(
   'Death Valley',
@@ -91,7 +107,9 @@ let deathvalley = new Destination(
   'warm',
   'lowdensity',
   'aaa',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let lasvegas = new Destination(
   'Las Vegas',
@@ -99,7 +117,9 @@ let lasvegas = new Destination(
   'warm',
   'highdensity',
   'aba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let sanantonio = new Destination(
   'San Antonio',
@@ -107,7 +127,9 @@ let sanantonio = new Destination(
   'warm',
   'highdensity',
   'aba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let hoggarmountains = new Destination(
   'Hoggar Mountains',
@@ -115,7 +137,10 @@ let hoggarmountains = new Destination(
   'warm',
   'lowdensity',
   'baa',
-  'jpg'
+  
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let pyramids = new Destination(
   'Pyramids',
@@ -123,7 +148,9 @@ let pyramids = new Destination(
   'warm',
   'highdensity',
   'bba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let dubai = new Destination(
   'Dubai',
@@ -131,7 +158,9 @@ let dubai = new Destination(
   'warm',
   'highdensity',
   'bba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let expensivevegas = new Destination(
   'Las Vegas',
@@ -139,7 +168,9 @@ let expensivevegas = new Destination(
   'warm',
   'highdensity',
   'bba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 
 let kepuhibeach = new Destination(
@@ -148,7 +179,9 @@ let kepuhibeach = new Destination(
   'warm',
   'lowdensity',
   'aaa',
-  'jpeg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let montanadeoro = new Destination(
   'Montanadeoro',
@@ -156,7 +189,9 @@ let montanadeoro = new Destination(
   'warm',
   'lowdensity',
   'aaa',
-  'jpeg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let panamacitybeach = new Destination(
   'Panama City Beach',
@@ -164,7 +199,9 @@ let panamacitybeach = new Destination(
   'warm',
   'lowdensity',
   'aaa',
-  'png'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let myrtlebeach = new Destination(
   'Myrtle Beach',
@@ -172,7 +209,9 @@ let myrtlebeach = new Destination(
   'warm',
   'highdensity',
   'aba',
-  'jpeg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 
 );
 let miami = new Destination(
@@ -181,7 +220,9 @@ let miami = new Destination(
   'warm',
   'highdensity',
   'bba',
-  'jpeg'
+  'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let galapagos = new Destination(
   'Galapagos',
@@ -189,7 +230,9 @@ let galapagos = new Destination(
   'warm',
   'highdensity',
   'bba',
-  'jpg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let parrotbay = new Destination(
   'Parrot Bay',
@@ -197,7 +240,9 @@ let parrotbay = new Destination(
   'warm',
   'lowdensity',
   'baa',
-  'jpeg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 let cocoprive = new Destination(
   'Coco Prive',
@@ -205,7 +250,9 @@ let cocoprive = new Destination(
   'warm',
   'lowdensity',
   'baa',
-  'jpeg'
+   'jpg',
+  'img src placeholder',
+  'expedia link placeholder'
 );
 // let scottsdale = new Destination('scottsdale', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
 // let palmsprings = new Destination('palmsprings', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
