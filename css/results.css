@@ -60,15 +60,7 @@ ul li ul {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-li
-{
-   display:block;
-  
-   width:300px; 
-   height:auto; 
-   align-items: center;
-   margin: 0 auto;
-}
+
 a {
   color:rgb(0, 0, 0);
   padding: 1rem;
@@ -147,7 +139,7 @@ main article section {
 
 img {
   border-radius: 50rem;
-  padding: 2rem;
+  padding: 0.2rem;
   align-items: center;
 }
 
@@ -163,7 +155,15 @@ menu.menubar {
   width: 100%;
 }
 
-
+li
+{
+   display:block;
+  
+   width:300px; 
+   height:auto; 
+   align-items: center;
+   margin: 0 auto;
+}
 
 h2 {
   margin: 0;
