@@ -6,10 +6,6 @@
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Oswald', sans-serif;
 }
-#gridimg{
-  max-width: 280px;
-}
-
 
 nav {
   height: 115px;
@@ -40,24 +36,31 @@ nav li {
 ul {
   display: table;
   margin: 0 auto;
+  list-style: none;
 }
 
 ul li {
   display: inline-block;
+  list-style:none;
 }
 
+ul li:hover {
+  background: rgba(122, 115, 110, 0.604);
+}
 
-
+ul li:hover ul {
+  display: block;
+}
 
 ul li ul {
   text-decoration: none;
   position: absolute;
   width: 50px;
   display: none;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -153,10 +156,13 @@ menu.menubar {
   display: flex;
   width: 100%;
 }
-
-spann li
+#gridimg{
+  max-width: 280px;
+}
+span li
 {
    display:block;
+  
    width:300px; 
    height:auto; 
    align-items: center;
@@ -174,7 +180,9 @@ h3{
   text-align: center;
   padding: 1rem;
 }
-
+a{
+  list-style: none;
+}
 
 .grid-container {
   margin: 7rem;
