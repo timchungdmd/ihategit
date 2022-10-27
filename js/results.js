@@ -279,7 +279,7 @@ function answerResult(){
 
 
       let locationimg=document.createElement('li');
-      imgBox.innerHTML=`<img src="${locations[i].src}" width=240px height=auto>`;
+      locationimg.innerHTML=`<img src="${locations[i].src}" width=240px height=auto>`;
       locationpic.appendChild(locationimg);
     }
   }
