@@ -577,4 +577,3 @@ function answerResult(){
     }
   }
 }
-
