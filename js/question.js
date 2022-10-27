@@ -396,7 +396,7 @@ submitBtn.addEventListener('click', () => {
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
     if(userAnswer===locations[i].code){
-      location.href = '../results.html';
+      location.href = 'results.html';
       questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`;
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
     }}}
