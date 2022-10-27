@@ -303,7 +303,7 @@ function answerResult(){
     if(locationCode===locations[i].code){
       console.log(`${userName} matches your preference!`);
       let locationlist=document.createElement('li');
-      locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
+      locationlist.innerText=(`${locations[i].name.toUpperCase()}`);
       locationSlist.appendChild(locationlist);
 
 
