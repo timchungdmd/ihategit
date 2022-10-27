@@ -55,10 +55,10 @@ ul li ul {
   position: absolute;
   width: 50px;
   display: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 a {
@@ -155,10 +155,9 @@ menu.menubar {
   width: 100%;
 }
 
-li
+spann li
 {
    display:block;
-  
    width:300px; 
    height:auto; 
    align-items: center;
