@@ -6,6 +6,10 @@
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Oswald', sans-serif;
 }
+#gridimg{
+  max-width: 280px;
+}
+
 
 nav {
   height: 115px;
