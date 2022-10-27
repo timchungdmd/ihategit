@@ -5,15 +5,16 @@ function Destination(
   density,
   code,
   fileextension = 'jpg',
-  location = undefined
+  expedia
 ) {
   this.name = name;
   this.price = price; //low,medium,high
   this.climate = climate; //warm,cold
   this.density = density; //highdensity, lowdensity
   this.fileextension = fileextension;
-  this.src = `img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`; //img link */
+  this.src = src;
   this.code = code;
+  this.expedia=expedia;
 }
 //test location array//
 
