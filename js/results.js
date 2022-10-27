@@ -5,6 +5,7 @@ function Destination(
   density,
   code,
   fileextension = 'jpg',
+  src
   expedia
 ) {
   this.name = name;
