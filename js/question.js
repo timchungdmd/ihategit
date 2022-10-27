@@ -19,7 +19,7 @@ function Destination(
 //test location array//
 
 let niagarafalls = new Destination(
-  'niagarafalls',
+  'Niagara Falls',
   'lowprice',
   'cold',
   'lowdensity',
@@ -27,7 +27,7 @@ let niagarafalls = new Destination(
   'jpg'
 );
 let yellowstone = new Destination(
-  'yellowstone',
+  'Yellowstone National Park',
   'lowprice',
   'cold',
   'lowdensity',
@@ -35,7 +35,7 @@ let yellowstone = new Destination(
   'jpg'
 );
 let niagara = new Destination(
-  'niagara',
+  'Niagara Falls',
   'lowprice',
   'cold',
   'highdensity',
@@ -43,16 +43,16 @@ let niagara = new Destination(
   'jpg'
 );
 let rockefeller = new Destination(
-  'rockefeller',
+  'Rockefeller',
   'lowprice',
   'cold',
   'highdensity',
   'abb',
   'jpg'
 );
-let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity','bbb' ,'jpg');
+let aspen = new Destination('Aspen', 'highprice', 'cold', 'highdensity','bbb' ,'jpg');
 let stmortiz = new Destination(
-  'stmortiz',
+  'St. Mortiz',
   'highprice',
   'cold',
   'highdensity',
@@ -60,7 +60,7 @@ let stmortiz = new Destination(
   'jpg'
 );
 let kirkenes = new Destination(
-  'kirkenes',
+  'Kirkenes',
   'highprice',
   'cold',
   'lowdensity',
@@ -68,7 +68,7 @@ let kirkenes = new Destination(
   'jpg'
 );
 let solitudemountain = new Destination(
-  'solitudemountain',
+  'Solitude Mountain',
   'highprice',
   'cold',
   'lowdensity',
@@ -77,7 +77,7 @@ let solitudemountain = new Destination(
 );
 
 let grandcanyon = new Destination(
-  'grandcanyon',
+  'Grand Canyon',
   'lowprice',
   'warm',
   'lowdensity',
@@ -85,7 +85,7 @@ let grandcanyon = new Destination(
   'jpg'
 );
 let deathvalley = new Destination(
-  'deathvalley',
+  'Death Valley',
   'lowprice',
   'warm',
   'lowdensity',
@@ -93,7 +93,7 @@ let deathvalley = new Destination(
   'jpg'
 );
 let lasvegas = new Destination(
-  'lasvegas',
+  'Las Vegas',
   'lowprice',
   'warm',
   'highdensity',
@@ -101,7 +101,7 @@ let lasvegas = new Destination(
   'jpg'
 );
 let sanantonio = new Destination(
-  'sanantonio',
+  'San Antonio',
   'lowprice',
   'warm',
   'highdensity',
@@ -109,7 +109,7 @@ let sanantonio = new Destination(
   'jpg'
 );
 let hoggarmountains = new Destination(
-  'hoggarmountains',
+  'Hoggar Mountains',
   'highprice',
   'warm',
   'lowdensity',
@@ -117,7 +117,7 @@ let hoggarmountains = new Destination(
   'jpg'
 );
 let pyramids = new Destination(
-  'pyramids',
+  'Pyramids',
   'highprice',
   'warm',
   'highdensity',
@@ -125,7 +125,7 @@ let pyramids = new Destination(
   'jpg'
 );
 let dubai = new Destination(
-  'dubai',
+  'Dubai',
   'highprice',
   'warm',
   'highdensity',
@@ -133,7 +133,7 @@ let dubai = new Destination(
   'jpg'
 );
 let expensivevegas = new Destination(
-  'expensivevegas',
+  'Las Vegas',
   'highprice',
   'warm',
   'highdensity',
@@ -142,7 +142,7 @@ let expensivevegas = new Destination(
 );
 
 let kepuhibeach = new Destination(
-  'kepuhibeach',
+  'Kepuhi Beach',
   'lowprice',
   'warm',
   'lowdensity',
@@ -150,7 +150,7 @@ let kepuhibeach = new Destination(
   'jpeg'
 );
 let montanadeoro = new Destination(
-  'montanadeoro',
+  'Montanadeoro',
   'lowprice',
   'warm',
   'lowdensity',
@@ -158,7 +158,7 @@ let montanadeoro = new Destination(
   'jpeg'
 );
 let panamacitybeach = new Destination(
-  'panamacitybeach',
+  'Panama City Beach',
   'lowprice',
   'warm',
   'lowdensity',
@@ -166,7 +166,7 @@ let panamacitybeach = new Destination(
   'png'
 );
 let myrtlebeach = new Destination(
-  'myrtlebeach',
+  'Myrtle Beach',
   'lowprice',
   'warm',
   'highdensity',
@@ -175,7 +175,7 @@ let myrtlebeach = new Destination(
 
 );
 let miami = new Destination(
-  'miami',
+  'Miami',
   'highprice',
   'warm',
   'highdensity',
@@ -183,7 +183,7 @@ let miami = new Destination(
   'jpeg'
 );
 let galapagos = new Destination(
-  'galapagos',
+  'Galapagos',
   'highprice',
   'warm',
   'highdensity',
@@ -191,7 +191,7 @@ let galapagos = new Destination(
   'jpg'
 );
 let parrotbay = new Destination(
-  'parrotbay',
+  'Parrot Bay',
   'highprice',
   'warm',
   'lowdensity',
@@ -199,7 +199,7 @@ let parrotbay = new Destination(
   'jpeg'
 );
 let cocoprive = new Destination(
-  'cocoprive',
+  'Coco Prive',
   'highprice',
   'warm',
   'lowdensity',
