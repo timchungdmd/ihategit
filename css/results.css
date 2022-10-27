@@ -60,7 +60,15 @@ ul li ul {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+li
+{
+   display:block;
+  
+   width:300px; 
+   height:auto; 
+   align-items: center;
+   margin: 0 auto;
+}
 a {
   color:rgb(0, 0, 0);
   padding: 1rem;
